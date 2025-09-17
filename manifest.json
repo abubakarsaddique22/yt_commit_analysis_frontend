@@ -10,7 +10,11 @@
     "tabs",
     "activeTab",
     "scripting",
-    "http://localhost/*",
+    "http://localhost:5000/*",
+    "https://www.googleapis.com/*"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*",
     "https://www.googleapis.com/*"
   ]
 }
